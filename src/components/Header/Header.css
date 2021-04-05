@@ -1,0 +1,27 @@
+nav.navbar {
+    display: block;
+    /* flex-wrap: wrap; */
+    letter-spacing: 0.05rem;
+    background: #131422;
+    padding: 0.8rem 1rem;
+    color: white;
+}
+
+.navbar .navbar-user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-user .first-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.first-bar .first-bar-item,
+.second-bar .second-bar-item {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
